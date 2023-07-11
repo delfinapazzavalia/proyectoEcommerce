@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Carrousel from "../pagesComponent/Carrousel";
+import CardsHomeContainer from "../pagesComponent/cardsHome/CardsHomeContainer";
 
 const Home = () => {
   return (
     <>
-    <h1>home</h1>
+      <Carrousel />
+      <CardsHomeContainer />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
