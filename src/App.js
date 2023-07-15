@@ -1,10 +1,13 @@
 import "./App.css";
-import Navbar from "./component/Navbar";
+import Rutas from "./component/routes/Rutas";
+
+
+
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Rutas/>
     </>
   );
 }
